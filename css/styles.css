@@ -1,0 +1,25 @@
+.navbar .navbar-brand img {
+  height: 30px;
+}
+.navbar{
+	position: fixed;
+	top: 0;
+	margin-bottom: 0; 
+	border: 0;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+}
+.navbar .navbar-toggle {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.navbar .navbar-toggle {
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+.bitcoin_back_ground{
+	width: 100%;
+    height: auto;
+}
