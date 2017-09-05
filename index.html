@@ -27,9 +27,10 @@
       <div class="collapse navbar-collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="#">HOME</a></li>
+            <li><a href="#">SERVICES</a></li>
             <li><a href="#">ABOUT US</a></li>
             <li><a href="#">NEWS</a></li>
-            <li><a href="#">CONTACT US</a></li>
+            <li><a data-toggle="modal" data-target="#contactModal">CONTACT US</a></li>
         </ul>
       </div>
     </div>
@@ -42,9 +43,6 @@
       <p>Invest in cryptocurrencies with Xenk and recieve the most competitive price and fees in NZ!</p>
     </div>
   </div>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
   <div class="container">
     <div class="row">
@@ -73,6 +71,49 @@
       </div>
     </div>
   </div>
+
+  <div class="modal fade" id ="contactModal" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <form class="form-horrizontal">
+          <div class="modal-header">
+            <h4>Send Us Your Enquiry</h4>
+          </div>
+          <div class="modal-body">
+            
+            <div class="form-group">
+              <label for="contact-name" class="col-lg-2 control-label">Name:</label>
+              <div class="col-lg-10">
+                <input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-email" class="col-lg-2 control-label">Email:</label>
+              <div class="col-lg-10">
+                <input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-message" class="col-lg-2 control-label">Message:</label>
+              <div class="col-lg-10">
+                <textarea class="form-control" rows="8"></textarea>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <a class="btn btn-default" data-dismiss="modal">Close</a> 
+            <button class="btn btn-primary" type="submit">Send Message</button> 
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
 </body>
 </html>
