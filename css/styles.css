@@ -21,10 +21,9 @@
 }
 .bottom-footer{
 }
-.small-logo-white{
-	height: 50px;
-	width: 50px;
-	margin-bottom: 10px;
+.bottom-text{
+	margin-top: 10px;
+	margin-bottom: 10px: 
 }
 .swap {
   background-image: url(../images/facebook-logo-blue.png);
