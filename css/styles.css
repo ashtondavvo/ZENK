@@ -92,10 +92,10 @@
 	margin-left: 0px;
 	padding-left: 0px;
 }
-a{
+.bottom-links a{
 	color: #ffffff;
 }
-a:hover {
+.bottom-links a:hover {
 	text-decoration: none;
     color: 2c79cf;
 }
