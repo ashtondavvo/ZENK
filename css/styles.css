@@ -25,8 +25,23 @@
 	height: 50px;
 	width: 50px;
 	margin-bottom: 10px;
+	background-image: url(images/twitter-logo-white.png);
+}
+.small-logo-white:hover{
+	height: 50px;
+	width: 50px;
+	margin-bottom: 10px;
+	opacity: 0;
+	background-image: url(images/twitter-logo-white.png);
 }
 .bottom-links{
 	margin-left: 0px;
 	padding-left: 0px;
+}
+a{
+	color: #ffffff;
+}
+a:hover {
+	text-decoration: none;
+    color: 2c79cf;
 }
