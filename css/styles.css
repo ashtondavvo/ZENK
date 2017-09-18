@@ -25,14 +25,68 @@
 	height: 50px;
 	width: 50px;
 	margin-bottom: 10px;
-	background-image: url(images/twitter-logo-white.png);
 }
-.small-logo-white:hover{
-	height: 50px;
-	width: 50px;
-	margin-bottom: 10px;
-	opacity: 0;
-	background-image: url(images/twitter-logo-white.png);
+.swap {
+  background-image: url(../images/facebook-logo-blue.png);
+  background-repeat: no-repeat;
+  background-size: cover; /* Make background responsive */
+  background-position: center;
+  width: 50px; /* Frame size on small screens */
+  height: 50px;
+  margin: 0px;
+}
+.swap a {
+  
+}
+.swap a img {
+  opacity: 1; /* Default state */
+  -webkit-transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  -o-transition: all .1s ease-in-out;
+  -ms-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out; /* Soften the transition */
+}
+.swap a:hover img {
+  opacity: 0; /* Hover state */
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+.swap2 {
+  margin: 0px;
+  padding: 0px;
+  background-image: url(../images/twitter-logo-blue.png);
+  background-repeat: no-repeat;
+  background-size: cover; /* Make background responsive */
+  width: 50px; /* Frame size on small screens */
+  height: 50px;
+  margin: 0px;
+}
+.swap2 a {
+  margin: 0px;
+  padding: 0px;
+}
+.swap2 a img {
+  margin: 0px;
+  padding: 0px;
+  opacity: 1; /* Default state */
+  -webkit-transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  -o-transition: all .1s ease-in-out;
+  -ms-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out; /* Soften the transition */
+}
+.swap2 a:hover img {
+  margin: 0px;
+  padding: 0px;
+  opacity: 0; /* Hover state */
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 .bottom-links{
 	margin-left: 0px;
