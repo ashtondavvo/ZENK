@@ -2,14 +2,9 @@
   height: 25px;
 }
 .navbar {
-	margin-bottom: 0; 
 	border: 0;
 	-webkit-box-shadow: none;
     box-shadow: none;
-}
-.bitcoin_back_ground{
-	width: 100%;
-    height: auto;
 }
 .site-footer{
 	position: absolute;
@@ -38,6 +33,16 @@
 .bottom-links a:hover {
 	text-decoration: none;
     color: 2c79cf;
+}
+.page-header{
+	margin-top: 0px;
+}
+.panel-body{
+	padding-top: 0px;
+}
+.featureImg{
+	width: 100%;
+	margin-bottom: 15px;
 }
 body{
   position: relative;
